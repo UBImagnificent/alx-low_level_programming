@@ -30,9 +30,9 @@ int main(void)
 	{
 		printf("%i is zero", n);
 	}
-	esle
+	else
 	{
-		printf("%i is negative" n);
+		printf("%i is negative", n);
 	}
 	return (0);
 }
