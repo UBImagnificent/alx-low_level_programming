@@ -8,11 +8,11 @@
  */
 int main(void)
 {
-	int n;
+	int n, b;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	int b = n % 10;
+	b = n % 10;
 
 	/**
 	 * the code above was provided by Alx
