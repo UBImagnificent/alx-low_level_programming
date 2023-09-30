@@ -13,7 +13,6 @@ int main(void)
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
 		putchar(alphabet);
-		putchar('\n');
 	}
 	/**
 	 * uses the for loop to print all letters of the alphabet
@@ -22,5 +21,6 @@ int main(void)
 	 * alphabet <= z sets the range of values we want
 	 * alphabet ++ ensures that no values is repeated
 	 */
+	putchar('\n');
 	return (0);
 }
